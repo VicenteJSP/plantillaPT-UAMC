@@ -80,3 +80,15 @@
         #2
     \par
 }
+
+\newcommand{\apartado}[2]{
+    \subsection{#1}
+        #2
+    \par
+}
+
+\newcommand{\subapartado}[2]{
+    \subsubsection{#1}
+        #2
+    \par
+}
