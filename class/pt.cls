@@ -74,3 +74,9 @@
     \vspace*{\fill}
     \clearpage
 }
+
+\newcommand{\capituloPt}[2]{
+    \section{#1}
+        #2
+    \par
+}
