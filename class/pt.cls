@@ -79,6 +79,7 @@
     \section{#1}
         #2
     \par
+    \clearpage
 }
 
 \newcommand{\apartado}[2]{
@@ -91,4 +92,13 @@
     \subsubsection{#1}
         #2
     \par
+}
+
+\newcommand{\imagenSimple}[3]{
+    \begin{figure}[h!]
+        \centering
+        \includegraphics[width=\textwidth]{images/#1}
+        \caption{#2}
+        \label{fig:#3}
+    \end{figure}
 }

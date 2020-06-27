@@ -15,7 +15,7 @@
         {Nombre del capítulo}
         {
             Contenido del capitulo, puede se texto o cualquier otro elemento
-            por ejemplo una tabla.
+            por ejemplo una tabla. \ref{fig:Etiqueta2}
         }
 
     \capituloPt
@@ -34,4 +34,19 @@
                         {Contenido del subaparatdo}
                 }
         }
+
+        \capituloPt
+            {Figuras}
+            {
+                \imagenSimple
+                    {logoUAM.png}
+                    {Texto de la figura}
+                    {Etiqueta1}
+
+                \imagenSimple
+                    {logoUAM.png}
+                    {Texto de la figura 2}
+                    {Etiqueta2}
+                    
+            }
 \end{document}
